@@ -22,6 +22,7 @@ env:
 
 jobs:
   build:
+    # Disable docker image build and publish
     if: false
     runs-on: ubuntu-latest
 
